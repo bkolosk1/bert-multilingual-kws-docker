@@ -15,3 +15,6 @@ scikit-learn==0.21.3
 stopwordsiso==0.6.1
 lemmagen3==3.3.1
 LatvianStemmer==1.0.2
+transformers
+markupsafe==2.0.1
+langid
