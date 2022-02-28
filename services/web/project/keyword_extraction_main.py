@@ -209,18 +209,6 @@ def predict(test_data, model, sp, corpus, args, langs, targets):
                                     maxes = all_decoded_maxes
 
                                 total_pred.extend(maxes)
-    #print(total_pred[0])
-    """if args['split_docs']:
-        total_kw = set()
-        filtered_total_pred = []
-
-        for kw in total_pred:
-            kw_stem = " ".join([stemmer(word) for word in kw.split()])
-            if kw_stem not in total_kw:
-                filtered_total_pred.append(kw)
-            total_kw.add(kw_stem)
-        total_pred = filtered_total_pred
-    """
     return total_pred[0]
 
 

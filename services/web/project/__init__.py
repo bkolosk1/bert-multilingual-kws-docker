@@ -32,7 +32,7 @@ app = Flask(__name__)
 app.wsgi_app = ProxyFix(app.wsgi_app)
 api = Api(app, version='1.0',
           title='API services',
-          description='Slovenian keyword extraction REST API')
+          description='Multilingual keyword extraction REST API')
 ns = api.namespace('rest_api', description='REST services API')
 
 args = {

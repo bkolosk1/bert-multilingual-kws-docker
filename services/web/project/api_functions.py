@@ -10,7 +10,6 @@ def extract_keywords(text, model, dictionary, sp, stemmer, args):
     all_docs = [[1, text, langid.classify(text)[0],"nema"]]
     df_test = pd.DataFrame(all_docs)
     df_test.columns = ["id", "text","lang","keyword"]
-    print(args)
 
     #corpus = Corpus(df_test, dictionary, sp, args)
     corpus = Corpus(df_test, df_test, df_test, args)
