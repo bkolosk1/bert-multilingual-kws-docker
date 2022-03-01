@@ -3,11 +3,14 @@
 
 This repository contains a docker for Multilingual keyword extraction using [BERT]
 
+
+**This repository requires Git Large Files Storage (LFS) (see https://git-lfs.github.com/) for the successful download of the saved classification model and docker compilation. **   
+
+
 ### Requirements
 -  docker
 -  docker-compose
-
-
+-  
 #### Development
 
 The following command
